@@ -6,7 +6,6 @@ https://api.semanticscholar.org/api-docs/
 import requests
 import json
 
-
 class PaperCaller:
     def __init__(self):
         self.fields = ('title', 'year', 'citationCount', 'authors', "abstract", "tldr")
